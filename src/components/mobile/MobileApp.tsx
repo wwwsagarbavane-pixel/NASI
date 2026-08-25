@@ -93,7 +93,7 @@ export const MobileApp: React.FC<MobileAppProps> = ({
   // Navigation & View States
   const [appView, setAppView] = useState<AppView>('dashboard');
   const [activeTab, setActiveTab] = useState<TabType>('home');
-  const [showWelcome, setShowWelcome] = useState<boolean>(false);
+  const [showWelcome, setShowWelcome] = useState<boolean>(true);
   const [showNotifications, setShowNotifications] = useState<boolean>(false);
   const [saveToast, setSaveToast] = useState<string | null>(null);
   const [selectedServiceModal, setSelectedServiceModal] = useState<any | null>(null);
